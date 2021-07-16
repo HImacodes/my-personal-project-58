@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    border-color: Yellow;
+
+}
+
+#title {
+    background: lightblue;
+}
+
+#why {
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom:200px
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+
+}
+
+#me {
+    width: 2px
+}
+
+.link {
+    float: left;
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#description {
+    font-size: 25px;
+    color: black;
+}
+#art{
+    width:50%;
+}
+a{
+    text-decoration: none;
+    color:darkviolet;
+    text-shadow:2px 2px lightgray;
+}
+.link:hover{
+    background-color:#468ef2;
+}
+.menu{
+    position:fixed;
+    background:white;
+    width:100%;
+    top:0px;
+    margin-top:0px;
+    z-index:10;
+}
